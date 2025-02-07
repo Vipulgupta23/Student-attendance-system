@@ -48,3 +48,10 @@ body {
     border: 1px solid #ccc;
     outline: none;
 }
+.login{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+
+}

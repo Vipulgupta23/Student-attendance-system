@@ -19,6 +19,9 @@
         <div class="inputgroup2">
             <input type="password"class="input-field" placeholder="Password" autocomplete="off" required>
         </div>
+        <div class="login">
+            <button>Login</button>
+        </div>
     </div>
 </body>
 </html>
