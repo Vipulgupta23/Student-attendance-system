@@ -13,14 +13,14 @@
             <header>Login</header>
         </div>
         <div class="inputgroup1">
-            <input type="text"class="input-field" placeholder="Username" autocomplete="off" required>
+            <input type="text"class="input-field" placeholder="Username" id="txtusername" autocomplete="off" required>
            
         </div>
         <div class="inputgroup2">
-            <input type="password"class="input-field" placeholder="Password" autocomplete="off" required>
+            <input type="password"class="input-field" placeholder="Password" autocomplete="off" id="txtpassword" required>
         </div>
         <div class="login">
-            <button>Login</button>
+            <button class="btnlogin inactivecolor" id="btnLogin">LOGIN</button>
         </div>
     </div>
 </body>
