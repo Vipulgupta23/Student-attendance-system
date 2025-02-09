@@ -1,7 +1,7 @@
 <?php
 $path=$_SERVER['DOCUMENT_ROOT'];
-require_once $path."/attendanceapp/database/database.php";
-require_once $path."/attendanceapp/database/facultyDetails.php";
+require_once $path."/attendenceapp/database/database.php";
+require_once $path."/attendenceapp/database/facultyDetails.php";
 $action=$_REQUEST["action"];
 if(!empty($action))
 {

@@ -1,6 +1,6 @@
 <?php
 $path=$_SERVER['DOCUMENT_ROOT'];
-require_once $path."/attendanceapp/database/database.php";
+require_once $path."/attendenceapp/database/database.php";
 class faculty_details
 {
     public function verifyUser($dbo,$un,$pw)

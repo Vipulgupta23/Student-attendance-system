@@ -2,7 +2,7 @@ $(function(e)
 {
     $(document).on("click","#btnLogout",function(ee)
     {
-        $ajax(
+        $.ajax(
             {
                 url:"ajaxhandler/logoutAjax.php",
                 type:"POST",

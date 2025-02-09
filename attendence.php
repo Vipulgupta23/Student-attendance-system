@@ -5,7 +5,7 @@ session_start();
           $facid=$_SESSION["current_user"];
         }
     else{
-        header("location:"."/attendanceapp/login.php");
+        header("location:"."/attendenceapp/login.php");
         die();
     }
 ?>
@@ -15,8 +15,6 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/attendance.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>AttendanceApp</title>
 </head>
 <body>
@@ -27,4 +25,3 @@ session_start();
 
 </body>
 </html>
-     

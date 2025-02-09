@@ -1,4 +1,3 @@
-
 function tryLogin()
 {
     let un=$("#txtUsername").val();
@@ -18,7 +17,7 @@ function tryLogin()
             
             if(rv['status']=="ALL OK")
             {
-                document.location.replace("attendance.php");
+                document.location.replace("attendence.php");
             }
             else{
                 alert(rv['status']);
@@ -49,5 +48,5 @@ $(function(e){
     }); 
     $(document).on("click","#btnLogin",function(e){
         tryLogin();
-    });
+});
 });
